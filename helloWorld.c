@@ -1,8 +1,15 @@
 #include <stdio.h>
 
+void greeting(){
+	
+	printf("Welcome to C language\n"); 
+	return ; 
+
+}
+
 int main(int argc, char** argv){
 
 
-	printf("Welcome to c language\n"); 
+	greeting();  
 	return 0; 
 }
